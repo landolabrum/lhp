@@ -147,7 +147,7 @@ export default function App() {
             href="/"
       user={{
         
-        image: 'lhp/static/media/logo.b6e385ab.svg',
+        image: 'static/media/logo.b6e385ab.svg',
       }}
       userView
     />

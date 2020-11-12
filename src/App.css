@@ -68,9 +68,8 @@ p {
   transform: translate(-50%, -50%);
  
 }
-nav .brand-logo.center{
-  transform: translate(-50%, -15%);
-
+nav .brand-logo.center {
+  transform: translate(-50%,-87%);
 }
 .nav-extended {
   margin: 12px;
@@ -115,7 +114,7 @@ th {
 
 .phead {
   /* margin-top: 3vw; */
-  background-color: #2196F3;
+  background-color: #f44336;
   color: #fff;
   width: 100%;
   /* letter-spacing: .4rem; */
