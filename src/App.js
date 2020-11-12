@@ -135,7 +135,7 @@ class ContactModal extends React.Component {
   }
 }
 
-export default function BasicExample() {
+export default function App() {
   return (
     <BrowserRouter>
       <div>
