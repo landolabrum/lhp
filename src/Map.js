@@ -21,7 +21,7 @@ export class MapContainer extends Component {
 
                 style={{ width: '100%', height: 400, position: 'relative' }}
             >
-                <a target="_blank" href="https://www.google.com/maps/dir//Paul+Dowland+Tile+%26+Countertops,+West+5900+South,+Murray,+UT">
+                <a rel="noopener noreferrer" target="_blank" href="https://www.google.com/maps/dir//Paul+Dowland+Tile+%26+Countertops,+West+5900+South,+Murray,+UT">
                     <h4>Directions</h4>
                     <Map
 
