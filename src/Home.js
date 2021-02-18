@@ -9,7 +9,10 @@ class Home extends React.Component {
     var lp = 8
     var hp = 5
     var pp = 5
-    // var exo = 25
+
+    var qhp = 8
+    var qpp = 8
+
     var lux = 15
     var min = 45
     var max = 70
@@ -33,6 +36,54 @@ class Home extends React.Component {
             <td>${pp}</td>
             <td>{min} - {max} </td>
             <td>${pp * min} - ${pp * max}</td>
+          </tr>
+          <tr>
+            <td> <fc>Leather</fc></td>
+            <td>${lp}</td>
+            <td>{min} - {max} </td>
+            <td>${lp * min} - ${lp * max}</td>
+          </tr>
+          <tr>
+            <td><fc>Ice</fc></td>
+            <td>${lux}</td>
+            <td>{min} - {max} </td>
+            <td>${lux * min} - ${lux * max}</td>
+          </tr>
+          <tr>
+            <td><fc>Orange Peel</fc></td>
+            <td>${lux}</td>
+            <td>{min} - {max} </td>
+            <td>${lux * min} - ${lux * max}</td>
+          </tr>
+          <tr>
+            <td><fc>Lux</fc></td>
+            <td>${lux}</td>
+            <td>{min} - {max} </td>
+            <td>${lux * min} - ${lux * max}</td>
+          </tr>
+        </tbody>
+      </Table>
+    </Card>
+    var qrtz = <Card>
+      <Table className=' striped'>
+        <thead>
+          <tr>
+            <th data-field="id">Finishes</th>
+            <th data-field="Cost">Cost<sm>Sqft</sm></th>
+            <th data-field="Sqft">Avg Slab<sm>Sqft</sm></th>
+            <th data-field="Cost">Total Cost</th></tr>
+        </thead>
+        <tbody>
+          <tr> <td><fc>Hone</fc></td>
+            <td>${qhp}</td>
+            <td>{min} - {max} </td>
+            <td>${qhp * min} - ${qhp * max}</td>
+          </tr>
+          <tr>
+            <td><fc> Polish</fc></td>
+            <td>${qpp}</td>
+            <td>{min} - {max} </td>
+            <td>${qpp * min} - ${qpp * max}</td>
           </tr>
           <tr>
             <td> <fc>Leather</fc></td>
@@ -131,7 +182,7 @@ class Home extends React.Component {
             <Col offset='l2' l={8} s={12}>
               <h4 className='left-align hvy'>PRICING</h4>
               <div className='phead'>Quartz / Engineered Stone / Man-Made Stone</div>
-              {crd}
+              {qrtz}
               <div className='phead'>
                 Granite / Quartzite
               </div>

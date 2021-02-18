@@ -21,8 +21,10 @@ export class MapContainer extends Component {
 
                 style={{ width: '100%', height: 400, position: 'relative' }}
             >
-                <a rel="noopener noreferrer" target="_blank" href="https://www.google.com/maps/dir//Paul+Dowland+Tile+%26+Countertops,+West+5900+South,+Murray,+UT">
+                <a rel="noopener noreferrer" target="_blank" href="https://www.google.com/maps/dir//LHPLLC,+358+W+5900+S,+Murray,+UT+84107">
+                                                                    
                     <h4>Directions</h4>
+                    <p>LHPLLC, 358 W 5900 S, Murray, UT 84107</p>
                     <Map
 
                         google={this.props.google}
@@ -52,7 +54,7 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-    apiKey: ('AIzaSyBh-HkOlEee6_mVUEHPddbp5fbxywlq58Y')
+    apiKey: ('AIzaSyCs2C3ErvkDU8tUGEuRrtAKPfu6upM66Mc')
 })(MapContainer)
 
 // https://www.google.com/maps/place/Paul+Dowland+Tile+%26+Countertops/@40.6433467,-111.902224822248,17z/data=!3m1!4b1!4m5!3m4!1s0x8752899c9350a41f:0x256b318901cd331a!8m2!3d40.6433467!4d-111.902224800361
