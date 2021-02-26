@@ -14,6 +14,22 @@
   opacity: 1 !important;
   transition: opacity .35s ease-in-out;
 }
+h3{
+  font-size: 1.92rem;
+  font-weight: 600
+}
+.card {
+  border-radius: 20px !important;
+  padding: 30px;
+
+}
+.bgimg{
+  z-index: -1;
+  position: absolute;
+  width: auto;
+  height: 70%;
+
+}
 sm{
   padding-left: 3px;
   font-size:11px !important;
@@ -47,9 +63,18 @@ sm{
   width: 50%;
 }
 .hvy {
-  white-space: nowrap;
-  font-weight: 800;
+  font-family: "Google Sans",sans-serif;
+  font-size: 46px;
+  font-weight: 700;
   letter-spacing: 10px;
+  line-height: 56px;
+  color: #fff;
+  margin: 0;
+  max-width: 520px;
+  overflow: visible;
+  padding: 80px 0 0 40px;
+  top: 0;
+  z-index: 1;
 }
 
 .App-logo {
@@ -91,6 +116,18 @@ p {
   transform: translate(-50%, -50%);
  
 }
+.card-title{
+  font-weight: 800 !important;
+}
+.tit{
+  color: #fff;
+  background-color: #ff3300;
+  padding: .4rem;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
 nav .brand-logo.center {
   transform: translate(-50%,-90%);
 }
@@ -104,9 +141,13 @@ fc {
   font-size: 12px;
   font-weight: 800;
 }
-
-th {
-  background-color: #e1e1e1
+.slabs{
+  width: 20%;
+  top: 20%;
+  position: absolute;
+}
+td, th {
+  padding: 10px ​5px !important; 
 }
 .indicator-item{
   display: none !important;
@@ -202,7 +243,9 @@ th {
   width: calc(100% - 12px);
   z-index: -1;
 }
-
+.hdr{
+  margin-left: 18px;
+}
 /* { 
   width: 100%;
   min-height: 5.2rem;
@@ -211,7 +254,9 @@ th {
   padding-top: 1.2rem;
   background-color: #f30;
 } */
-
+LazyHero{
+  height: 400px;
+}
 i {
   font-size: 2.3rem !important;
 }
@@ -222,8 +267,8 @@ i {
 }
 .footer-copyright{
   padding: 10px 50px;
-  color: #d1d1d1;
-  font-size:11px
+  color: #010101;
+  font-size:10px;
 }
 .Feed {
 

@@ -8,13 +8,14 @@ import './App.css';
 import Home from './Home';
 import About from './About';
 import Gallery from "./Gallery";
-import { BrowserRouter, Route, Switch, Link, useLocation} from 'react-router-dom';
+import {Full} from "./pricing"
+import { BrowserRouter, Route, Switch, Link, useLocation } from 'react-router-dom';
 // import { buildUrl } from 'react-instafeed'
 import { SocialIcon } from "react-social-icons";
 
 // import Feed from "react-instagram-authless-feed"
 
-{/* <Feed  userName="pauldowlandtile" className="Feed" classNameLoading="Loading" limit="4" /> */}
+{/* <Feed  userName="pauldowlandtile" className="Feed" classNameLoading="Loading" limit="4" /> */ }
 
 
 
@@ -161,13 +162,13 @@ export default function App() {
   return (
     <BrowserRouter >
       <div>
-        <Navbar 
+        <Navbar
           brand={<Link to="/"><img className='black-text App-logo valign-wrapper' src={logo} alt="logo" /></Link>}
           centerLogo
           className='white black-text'>
-          <Link  className='black-text' to="/">Home</Link>
-          <Link  className='black-text' to="/about">About</Link>
-          <Link  className='black-text' to="/gallery">Gallery</Link>
+          <Link className='black-text' to="/">Home</Link>
+          <Link className='black-text' to="/about">About</Link>
+          <Link className='black-text' to="/gallery">Gallery</Link>
           <Divider />
           <NavItem className='black-text'><ContactModal /></NavItem>
         </Navbar>
@@ -183,7 +184,10 @@ export default function App() {
           <Route path="/gallery">
             <Gallery />
           </Route>
-          
+          <Route path="/pricing">
+            <Full />
+          </Route>
+
           <Route path="*">
             <NoMatch />
           </Route>
@@ -221,7 +225,8 @@ function Foot() {
 
         <SocialIcon
           url="https://twitter.com/pauldowlandtile" />
-      </Col>
+      </Col><Col>          <Link className='black-text' to="/pricing">Pricing</Link>
+</Col>
     </Row>
 
     <div className="footer-copyright">
