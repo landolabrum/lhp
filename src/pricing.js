@@ -19,6 +19,7 @@ class Pricing extends React.Component {
     var crd = <span>
 
       <Table className='striped'>
+        <h1>TEST</h1>
         <thead>
           <tr>
             <th data-field="id">Finishes</th>
