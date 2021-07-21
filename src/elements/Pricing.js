@@ -16,7 +16,7 @@ function Is(title, data_row){
                {data_row.avg[0]} - {data_row.avg[1]}
             </td>
             <td>
-               {data_row.avg[0]*data_row.cost} - {data_row.avg[1]*data_row.cost}
+               ${data_row.avg[0]*data_row.cost} - ${data_row.avg[1]*data_row.cost}
             </td>
          </tr>
       )
